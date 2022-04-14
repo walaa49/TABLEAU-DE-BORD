@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+      <link rel="stylesheet" href="SITE_PREPA.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--MENU DE LA PAGE-->
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="pc.png">
+                    <h2>WA<span class="danger">LAA</span></h2>
+                </div>
+                <div class="fermer" id="fermer_btn">
+                    <span class="material-icons-sharp">
+                        close
+                    </span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        grid_view
+                        </span>
+                        <h3>TABLEAU DE BORDS</h3>
+                </a>
+                <a href="#" class="pros">
+                    <span class="material-icons-sharp">
+                        person
+                        </span>
+                        <h3>PROSPECTS</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        groups
+                        </span>
+                        <h3>RENDEZ-VOUS</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        view_agenda
+                        </span>
+                        <h3>AGENDA</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        email
+                        </span>
+                        <h3>MESSAGERIE</h3>
+                        <span class="message-count">30</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">
+                        logout
+                        </span>
+                        
+                        <h3>DECONNECTER</h3>
+                </a>
+            </div>
+        </aside>
+        <!--contenu de la page-->
+        <main>
+            <h1>TABLEAU DE BORD</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <!--etiquette de vente-->
+            <div class="contenu">
+                <div class="vente">
+                     <span class="material-icons-sharp">
+                        analytics
+                        </span> 
+                        <div class="milieu">
+                            <div class="gauche">
+                                <h3>TOTAL DE VENTES</h3>
+                                <h1>20.000 DH</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx='38' cy='38' r='36'></circle>
+                                </svg>
+                                <div class="numero">
+                                    <p>81%</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <small class="text-muted">Derniere 24 heures</small>
+                </div>
+               
+               <!--ETIQUETTE DE DEPENSES-->
+               <div class="depense">
+                   <span class="material-icons-sharp">
+                      bar_chart
+                   </span> 
+                   <div class="milieu">
+                       <div class="gauche">
+                           <h3>TOTAL DE DEPENSES</h3>
+                           <h1>14.000 DH</h1>
+                       </div>
+                       <div class="progress">
+                           <svg>
+                               <circle cx='38' cy='38' r='36'></circle>
+                           </svg>
+                           <div class="numero">
+                               <p>61%</p>
+                           </div>
+                       </div>
+
+                   </div>
+                   <small class="text-muted">Derniere 24 heures</small>
+                </div>
+               <!--- ETIQUETTE REVENUS-->
+                <div class="revenu">
+                    <span class="material-icons-sharp">
+                        stacked_line_chart
+                    </span> 
+                  <div class="milieu">
+                        <div class="gauche">
+                            <h3>TOTAL DE REVENUS</h3>
+                            <h1>50.000 DH</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="numero">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Derniere 24 heures</small>
+               </div>
+            </div>
+            <!--FIN DU CONTENU-->
+             <div class="commande">
+                 <h2>Dernières commandes</h2>
+                 <table>
+                     <thead>
+                         <tr>
+                            <th>NOM DU PRODUIT</th>
+                            <th>NUMERO DU PRODUIT</th> 
+                            <th>PAYEMENT</th>
+                            <th>STATUT</th>
+                            <th></th> 
+                         </tr>
+                     </thead>
+                     <tbody>
+                         <tr>
+                         <td>GEL</td>
+                         <td>01</td>
+                         <td>OUI</td>
+                         <td class="warning">DISPONIBLE</td>
+                         <td class="primary">DETAILS</td>
+                        </tr>
+                        <tr>
+                            <td>POMMADE</td>
+                            <td>02</td>
+                            <td>OUI</td>
+                            <td class="warning">NON DISPONIBLE</td>
+                            <td class="primary">DETAILS</td>
+                           </tr>
+                           <tr>
+                            <td>STICK</td>
+                            <td>03</td>
+                            <td>OUI</td>
+                            <td class="warning">NON DISPONIBLE</td>
+                            <td class="primary">DETAILS</td>
+                           </tr>
+                           <tr>
+                            <td>GEL-DOUCHE</td>
+                            <td>04</td>
+                            <td>OUI</td>
+                            <td class="warning">DISPONIBLE</td>
+                            <td class="primary">DETAILS</td>
+                           </tr>
+                     </tbody>
+                 </table>
+                 <a href="#">AFFICHER PLUS</a>
+             </div>
+        </main>
+        <!--FIN DE CONTENU---->
+        <!----DEBUT BARRE A DROITE-->
+        <div class="droite">
+            <div class="top_d">
+                <button id="menu_btn"> 
+                    <span class="material-icons-sharp"> menu</span>
+                </button>
+                <div class="bascule_theme">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profil">
+                        <div class="info">
+                            <p>Bonjour, <b>WALAA</b></p>
+                            <small class="text-muted">ADMIN</small>
+                        </div>
+                        <div class="profil-photo">
+                            <img src="walaa2.jpg">
+                        </div>
+               </div>
+            </div>
+            <div class="dernier-modification">
+                <h2>DERNIERE MODIFICATION</h2>
+                <div class="modifications">
+                    <div class="modification">
+                        <div class="profil-photo">
+                            <img src="images.jfif">
+                        </div>
+                        <div class="message">
+                            <p><b>KAMAL </b>a reçu sa commande</p>
+                            <small class="text-muted">il y a 2 minutes</small>
+                        </div>
+                    </div>
+                    <!----->
+                    <div class="modification">
+                        <div class="profil-photo">
+                            <img src="pf1.jfif">
+                        </div>
+                        <div class="message">
+                            <p><b>KAMAL </b>a reçu sa commande</p>
+                            <small class="text-muted">il y a 2 minutes</small>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="modification">
+                        <div class="profil-photo">
+                            <img src="pf3.jfif">
+                        </div>
+                        <div class="message">
+                            <p><b>KAMAL </b>a reçu sa commande</p>
+                            <small class="text-muted">il y a 2 minutes</small>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="modification">
+                        <div class="profil-photo">
+                            <img src="pf4.jfif">
+                        </div>
+                        <div class="message">
+                            <p><b>KAMAL </b>a reçu sa commande</p>
+                            <small class="text-muted">il y a 2 minutes</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!---------FIN BARRE DE DROITE-->
+            <div class="vente-analyse">
+                   <h2>ANALYTIQUE DE VENTE</h2>
+                   <!---->
+                 <div class="objet enligne">
+                     <div class="icone">
+                        <span class="material-icons-sharp"> shopping_cart</span>
+                     </div>
+                 
+                   <div class="droite">
+                     <div class="info">
+                         <h3>COMMANDES EN LIGNE </h3>
+                         <small class="text-muted">DERNIERE 24 HEURES</small>
+                     </div>
+                     <h5 class="success">+39%</h5>
+                     <h3>3849</h3>
+                    </div>
+                </div>
+                <!---->
+                <div class="objet offligne">
+                    <div class="icone">
+                       <span class="material-icons-sharp"> local_mall</span>
+                    </div>
+                
+                  <div class="droite">
+                    <div class="info">
+                        <h3>COMMANDES OFF LIGNE </h3>
+                        <small class="text-muted">DERNIERE 24 HEURES</small>
+                    </div>
+                    <h5 class="danger">-17%</h5>
+                    <h3>1100</h3>
+                   </div>
+             </div>
+               <!-------->
+            <div class="objet client">
+                <div class="icone">
+                   <span class="material-icons-sharp">person</span>
+                </div>
+            
+               <div class="droite">
+                <div class="info">
+                    <h3>NOUVEAU CLIENT</h3>
+                    <small class="text-muted">DERNIERE 24 HEURES</small>
+                </div>
+                <h5 class="success">+25%</h5>
+                <h3>849</h3>
+               </div> 
+            </div>
+            <div class="objet ajout-produit">
+                <div>
+                    <span class="material-icons-sharp">add</span>
+                    <h3> AJOUTER UN PRODUIT</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="SITE_PREPA.js"></script>    
+</body>
+</html>
